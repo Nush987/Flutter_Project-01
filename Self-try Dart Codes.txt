@@ -1,0 +1,103 @@
+void main(){
+  print("Hello World");
+}
+
+void main(){
+  var firstName = "John";
+  var lastName = "Doe";
+
+  print("Full name is $firstName $lastName");
+}
+
+void main(){
+  int num1 = 10;
+  int num2 = 3;
+
+  int sum     = num1 + num2;
+  int diff    = num1 - num2;
+  int mul     = num1 * num2;
+  double div  = num1 / num2;
+
+  print("The sum is $sum");
+  print("The diff is $diff");
+  print("The mul is $mul");
+  print("The div is $div");
+}
+
+void main(){
+  String name     = "John";
+  String address  = "USA";
+  num age         = 20;
+  num height      = 5.9;
+  bool isMarried  = false;
+
+  print("Name is $name");
+  print("Address is $address");
+  print("Age is $age");
+  print("Height is $height");
+  print("Married status is $isMarried");
+}
+
+void main(){
+  List<String> names = ["Raj", "John", "Max"];
+
+  print("Value of names is $names");
+  print("Value of names[0] is ${names[0]}");
+  print("Value of names[1] is ${names[1]}");
+  print("Value of names[2] is ${names[2]}");
+
+  int length = names.length;
+  print("The length of names is $length");
+}
+
+void main(){
+  Map<String, String> myDetails = {
+    'name' : 'John Doe',
+    'address' : 'USA',
+    'fatherName' : 'Soe Doe'
+  };
+
+  print(myDetails['name']);
+}
+
+void main(){
+  var age =20;
+  
+  if(age >= 18){
+    print("You are a voter.");
+  }else{
+    print("You are not a voter.");
+  }
+}
+
+void main(){
+  int noOfMonth = 5;
+
+  if (noOfMonth == 1){
+    print("This month is Jan");
+  }else if (noOfMonth == 2){
+    print("This month is Feb");
+  }else if (noOfMonth == 3){
+    print("This month is Mar");
+  }else if (noOfMonth == 4){
+    print("This month is Apr");
+  }else if (noOfMonth == 5){
+    print("This month is May");
+  }else if (noOfMonth == 6){
+    print("This month is Jun");
+  }else if (noOfMonth == 7){
+    print("This month is Jul");
+  }else if (noOfMonth == 8){
+    print("This month is Aug");
+  }else if (noOfMonth == 9){
+    print("This month is Sep");
+  }else if (noOfMonth == 10){
+    print("This month is Oct");
+  }else if (noOfMonth == 11){
+    print("This month is Nov");
+  }else if (noOfMonth == 12){
+    print("This month is Dev");
+  }else{
+    print("Invalid option given.");
+  }
+}
